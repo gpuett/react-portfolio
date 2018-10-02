@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { SocialIcon } from 'react-social-icons';
 import Profile from '../images/image1.jpeg'
 
 import Layout from '../components/layout'
@@ -8,8 +9,11 @@ const IndexPage = () => (
   <Layout>
     <h1>Full Stack Developer</h1>
     <img src={Profile}/>
-    <p>I like creating pleasant projects that are fun and easy to use.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>I am a Portland-based web developer.</p>
+    <Link to="/page-2/">View Projects</Link>
+    <br/>
+    <SocialIcon url='https://github.com/gpuett' />
+    <SocialIcon url='https://www.linkedin.com/in/gpuett/' />
   </Layout>
 )
 
