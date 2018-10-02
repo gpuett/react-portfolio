@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { SocialIcon } from 'react-social-icons';
-import Profile from '../images/image1.jpeg'
+import Profile from '../images/profile.jpeg'
 
 import Layout from '../components/layout'
 
