@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Full Stack Developer</h1>
+    <h2>Full Stack Developer</h2>
     <img src={Profile}/>
     <p>I am a Portland-based web developer.</p>
     <Link to="/page-2/">View Projects</Link>
